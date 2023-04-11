@@ -15,7 +15,6 @@ module.exports = {
         image: r.image,
         diets: r.diets,
         created: "api",
-        steps: r.analyzedInstructions[0].steps.length
       }
       diets = [...diets, ...obj.diets]
       recipeAPI.push(obj)
